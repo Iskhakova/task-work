@@ -1,5 +1,6 @@
 package ru.stqa.pft.sandbox;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class PointTests {
@@ -12,6 +13,6 @@ public class PointTests {
   p2.x=-5;
   p2.y=3;
 
-assert p1.distance(p1,p2)== 9.899494936611665;
+  Assert.assertEquals(p1.distance(p1,p2),9.899494936611665);
   }
 }
