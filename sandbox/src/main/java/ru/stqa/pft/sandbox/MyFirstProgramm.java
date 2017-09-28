@@ -3,12 +3,12 @@ package ru.stqa.pft.sandbox;
 public class MyFirstProgramm {
 
   public static void main(String[] args) {
-    Point p1 = new Point();
-    Point p2 = new Point();
-   p1.x=2;
-   p1.y=-4;
-   p2.x=-5;
-   p2.y=3;
+    Point p1 = new Point(2,-4);
+    Point p2 = new Point(-5,3);
+   //p1.x=2;
+   //p1.y=-4;
+   //p2.x=-5;
+  // p2.y=3;
     System.out.println("Hello");
     System.out.println(distance(p1,p2));
     System.out.println(p1.distance(p1,p2));
